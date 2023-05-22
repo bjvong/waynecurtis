@@ -1,6 +1,6 @@
 function App() {
   return (
-<><p>start of the app</p></>
+<><p>start of the app 2</p></>
   );
 }
 
