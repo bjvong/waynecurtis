@@ -1,6 +1,14 @@
+import FadeBanner from "./components/crossfade";
+import FooterNav from "./components/footer";
+import BasicNav from "./components/navbar";
+
+
 function App() {
-  return (
-<><p>start of the app 2</p></>
+  return (<>
+<BasicNav/>
+<FadeBanner/>
+<FooterNav/>
+</>
   );
 }
 
