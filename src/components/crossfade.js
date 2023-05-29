@@ -2,17 +2,20 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function FadeBanner() {
   return (
+    <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
         <Carousel fade>
           <Carousel.Item>
+            
             <img
               className="d-block w-100"
               src="/img/before/1.JPG"
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Porch Windows</h3>
+            <p>Before</p>
             </Carousel.Caption>
+            
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -22,8 +25,8 @@ function FadeBanner() {
             />
     
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Replaced old storms with vinyl double hung</h3>
+            <p>After</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -34,10 +37,8 @@ function FadeBanner() {
             />
     
             <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              <h3>Nutwood's Incredible Facelift</h3>
+              <p>Before</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -48,14 +49,12 @@ function FadeBanner() {
             />
     
             <Carousel.Caption>
-              <h3>Fourth slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              <h3>Nutwood's Incredible Facelift</h3>
+              <p>After</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-
+        </div>
   );
 }
 
