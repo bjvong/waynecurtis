@@ -32,7 +32,7 @@ function FadeBanner() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/img/before/stuff 170.jpg"
+              src="/img/before/stuff170.jpg"
               alt="Third slide"
             />
     
@@ -44,8 +44,8 @@ function FadeBanner() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/img/after/stuff 168.jpg"
-              alt="Third slide"
+              src="/img/after/stuff168.jpg"
+              alt="Fourth slide"
             />
     
             <Carousel.Caption>
