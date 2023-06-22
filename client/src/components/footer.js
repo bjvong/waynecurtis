@@ -16,34 +16,33 @@ function FooterNav() {
           <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
             <h6 className='text-uppercase fw-bold mb-4'>
               <MDBIcon color='secondary' icon='gem' className='me-3' />
-              Company name
+              Wayne Curtis
             </h6>
             <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit.
+              Information / intro blurb inserted here. Lorem ipsum dolor sit amet, consecutor adipisicing elit gihnt wersto devloeip
             </p>
           </MDBCol>
 
           <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
-            <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+            <h6 className='text-uppercase fw-bold mb-4'>Services</h6>
             <p>
               <a href='#!' className='text-reset'>
-                Angular
+                Repairs
               </a>
             </p>
             <p>
               <a href='#!' className='text-reset'>
-                React
+                Landscape
               </a>
             </p>
             <p>
               <a href='#!' className='text-reset'>
-                Vue
+                Interior
               </a>
             </p>
             <p>
               <a href='#!' className='text-reset'>
-                Laravel
+                Exterior
               </a>
             </p>
           </MDBCol>
@@ -57,12 +56,12 @@ function FooterNav() {
             </p>
             <p>
               <a href='#!' className='text-reset'>
-                Settings
+                Pay Invoice
               </a>
             </p>
             <p>
               <a href='#!' className='text-reset'>
-                Orders
+                Lookup Invoice
               </a>
             </p>
             <p>
@@ -75,18 +74,15 @@ function FooterNav() {
           <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
             <p>
-              <MDBIcon color='secondary' icon='home' className='me-2' />
-              New York, NY 10012, US
+              <MDBIcon color='secondary' icon='home' className='me-0' />
+              Akron, OH 44314, US
             </p>
             <p>
-              <MDBIcon color='secondary' icon='envelope' className='me-3' />
-              info@example.com
+              <MDBIcon color='secondary' icon='envelope' className='me-0' />
+              info@waynecurtisllc.com
             </p>
             <p>
-              <MDBIcon color='secondary' icon='phone' className='me-3' /> + 01 234 567 88
-            </p>
-            <p>
-              <MDBIcon color='secondary' icon='print' className='me-3' /> + 01 234 567 89
+              <MDBIcon color='secondary' icon='phone' className='me-0' /> + 01 234 567 88
             </p>
           </MDBCol>
         </MDBRow>
